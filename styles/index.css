@@ -1,0 +1,203 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url("../img/background_ets.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor:default;
+    user-select: none;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 100;
+} 
+
+
+main {
+    width: 55%;
+    height: auto;
+    background-color: rgb(221, 221, 221);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 18vh;
+    margin-bottom: 3vh;
+    padding-bottom: 3vh;
+}
+
+.logo_header {
+    width: 10%;
+}
+
+.header_container {
+    width: 80%;
+    margin: auto;
+}
+
+.headerone {
+    width: 100%;
+    height: auto;
+    background-color: rgb(71, 84, 128);
+}
+
+nav {
+    width: auto;
+    height: 6vh;
+    color: white;
+    background-color: rgb(87, 102, 145);
+    display: block;
+    margin-top: 0;
+    padding-top: 1vh;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    height: 5vh;
+    width: 8vw;
+    font-size: 1vw;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    cursor: hand;
+  }
+  
+  .dropdown {
+    margin-left: 10%;
+    float: left;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(56, 56, 56);
+    z-index: 1;
+    text-align: center;
+    width: 8vw;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 11px 15px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(71, 84, 128);
+    border-radius: 25px;
+    }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+  
+  .dropdown:hover .dropbtn {
+    background-color: rgb(36, 36, 36);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.quienes_somos {
+    margin-left: 2vw;
+}
+
+.quienes_somos:hover .dropbtn{background-color: rgb(36, 36, 36);}
+
+.pedidos {
+    margin-left: 2vw;
+}
+
+.pedidos:hover .dropbtn{background-color: rgb(36, 36, 36);}
+
+.novedades {
+    margin-left: 2vw;
+}
+
+.novedades:hover .dropbtn{background-color: rgb(36, 36, 36);}
+
+.enlacemenu {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.menu {
+    float: left;
+}
+
+.titulocosas {
+    font-size: 1.5vw;
+    border: 5px rgb(71, 84, 128) solid;
+    text-align: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+    margin-bottom: 3vh;
+    padding: 0.5%;
+    background-color: rgb(87, 102, 145);
+    color: white;
+    border-radius: 15px;
+}
+
+hr {
+    border-color: rgb(71, 84, 128);
+    height: 5px;
+    background-color: rgb(71, 84, 128);
+    border: none;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.videos {
+    height: 60vh;
+    text-align: center;
+}
+
+.videoind {
+    width: 45%;
+    height: 47.3%;
+}
+
+footer {
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgb(71, 84, 128);
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.contacto {
+    text-align: center;
+    color: white;
+    padding-bottom: 2vh;
+}
+
+.enlacefooter {
+    text-decoration: none;
+    color: white;
+}

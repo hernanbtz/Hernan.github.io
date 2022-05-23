@@ -1,0 +1,97 @@
+.bannertop {
+    text-align: center;
+    height: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 6vh;
+}
+
+.img_banner {
+    width: 25vw;
+    padding: 10px;
+}
+
+.PlayStation {
+    width: 35vw;
+}
+
+.nintendo {
+    margin-top: -3vh;
+}
+
+.xbox {
+    width: 20vw;
+    padding-top: 2vh;
+}
+
+.steam {
+    width: 12vw;
+}
+
+.productos {
+    text-align: center;
+}
+
+.producto {
+    padding: 10px;
+    display: inline-block;
+    width: 20%;
+    transition: ease .2s;
+}
+.producto:hover {
+    transform: scale(1.1);
+}
+
+.individual_producto {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.brevedesc {
+    width: 100%;
+    background-color: rgb(71, 84, 128);
+    text-align: right;
+    margin-top: 0px;
+    display: inline-block;
+    height: 4vh;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.boton_producto {
+    padding: 5%;
+    font-size: 0.6vw;
+    margin: 4%;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.enlace {
+    text-decoration: none;
+    color: white;
+    margin-top: 55px;
+
+}
+
+.precio {
+    width: 20%;
+    float: left;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 2%;
+    font-size: 0.8vw;
+    color: white;
+}
+
+.aniadir {
+    float: right;
+    width: 70%;
+}

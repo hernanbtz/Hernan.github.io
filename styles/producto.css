@@ -1,0 +1,65 @@
+.videojuego {
+    width: 80vw;
+    display: inline-block;
+    margin-left: 10vw;
+}
+
+.imagen_videojuego {
+    padding: 5vh;
+    float: left;
+}
+
+.contenido_producto {
+    width: 45vw;
+    float: right;
+    padding: 5vh;
+}
+
+.estaimagenconio {
+    width: 24vw;
+}
+
+.description {
+    text-align: justify;
+    background-color: rgb(172, 172, 172);
+    border-radius: 15px;
+    padding: 2%;
+    font-size: 1vw;
+}
+.precio {
+    font-size: 2vw;
+    float: left;
+    color: rgb(71, 84, 128);
+}
+
+.enlace {
+    text-decoration: none;
+    color: white;
+}
+
+.boton_producto {
+    padding: 8%;
+    font-size: 1vw;
+    border-radius: 50px;
+    background-color: rgb(71, 84, 128);
+    color: white;
+    border: none;
+    cursor: pointer;
+    cursor: hand;
+    width: 160%; 
+}
+
+.price {
+    display: inline-block;
+    width: 100%;
+}
+
+.aniadir {
+    margin-top: 0.2%;
+    margin-left: 5%;
+    float: left;
+}
+
+h1 {
+    font-size: 2vw;
+}

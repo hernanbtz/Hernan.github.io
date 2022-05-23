@@ -1,0 +1,55 @@
+form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    }
+    input {
+    font-size: 0.7vw;
+    width: 60%;
+    height: 5vh;
+    background: rgb(71, 84, 128);
+    color: white;
+    border: solid 1px rgb(221, 221, 221);
+    border-bottom: none;
+    }
+    input::placeholder {
+    color: white;
+    text-align: center;
+    }
+    input:hover {
+    background: rgb(87, 102, 145);
+    color: white;
+    }
+    
+    textarea {
+    font-size: 0.7vw;
+    width: 60%;
+    height: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(71, 84, 128);
+    color: white;
+    border: solid 1px rgb(221, 221, 221);
+    }
+    
+    textarea:hover {
+    background: rgb(87, 102, 145);
+    color: white;
+    }
+    textarea::placeholder {
+    color: white;
+    text-align: center;
+    }
+    
+    .logoform {
+    width: 25%;
+    margin-left: 35%;
+    }
+    
+    .botones {
+    background: rgb(71, 84, 128);
+    padding: 1%;
+    color: white;
+    border: none;
+    border-bottom: 0.5px solid black;
+    }
